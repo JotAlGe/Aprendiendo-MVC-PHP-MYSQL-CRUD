@@ -13,6 +13,8 @@
                 <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="Correo del empleado" value="<?php echo $employee->email; ?>">
             </div>
             <input name=" send" id="" class="btn btn-primary" type="submit" value="Agregar empleado">
+            <a name="" id="cancel" class="btn btn-danger" href="?controller=employees&action=index" role="button">Cancelar</a>
         </form>
     </div>
 </div>
+<script src="assets/functions.js"></script>

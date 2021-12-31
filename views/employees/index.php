@@ -18,7 +18,7 @@
                 <td>
                     <div class="btn-group" role="group" aria-label="">
                         <a href="?controller=employees&action=edit&id=<?php echo $employee->id; ?>"" class=" btn btn-info">Editar</a>
-                        <a href="?controller=employees&action=delete&id=<?php echo $employee->id; ?>" class="btn btn-danger">Borrar</a>
+                        <a id="delete" href="?controller=employees&action=delete&id=<?php echo $employee->id; ?>" class="btn btn-danger">Borrar</a>
                     </div>
                 </td>
             </tr>
@@ -27,3 +27,4 @@
         } ?>
     </tbody>
 </table>
+<script src="/assets/functions.js"></script>
